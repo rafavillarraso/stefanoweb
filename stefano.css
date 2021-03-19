@@ -1,0 +1,638 @@
+/* Estilos para escritorio*/
+header {
+    background-image: url(images/foto-1.png);
+    background-repeat: no-repeat;
+    background-size:cover 
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Formatos específicos para el header*/
+
+/*generales*/
+#myBtn {
+    border-radius: 15px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 05px 5px rgba(0,0,0,.5);
+    background-color: darkorange;
+    border: 0px;
+    display: none; 
+    position: fixed; 
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 30px from the right */
+    z-index: 99; 
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+#myBtn:hover {
+    background-color: grey;
+}
+
+#topflecha {
+    width: 30px
+}
+
+.menudesktop {
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width:500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menudesktop ul {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.menudesktop ul li {
+    list-style-type: none;
+    width: 25%;
+    display: inline;
+    padding-right: 40px;
+}
+
+.menudesktop ul li a {
+    color: black
+}
+
+.logo h1 {
+    font-size: 60px
+}
+
+.claim h3 {
+    font-weight: lighter;
+    font-size: 25px
+}
+
+.branding {
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-bottom: 10em;
+    padding-top: 7em;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+}
+
+.claim {
+    height: 100px;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter
+}
+
+button {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+}
+
+.mainbutton {
+    background-color: white;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    min-width: 180px;
+    color: black;
+    border: none
+}
+
+.mainbutton a {
+    color: black
+}
+
+.secondbutton {
+    background-color: rgba(0,0,0,.3);
+    border-width: 0px;
+    min-width: 180px;
+    margin-top: 20px;
+    box-shadow: 0px 05px 5px rgba(0,0,0,.5);
+    transition: min-width 0.2s;
+}
+
+.botoncentro {
+    background-color: white;
+    border-width: 0px;
+    min-width: 180px;
+    margin-top: 20px;
+    box-shadow: 0px 05px 5px rgba(0,0,0,.5);
+    transition: min-width 0.2s;
+}
+
+.secondbutton:hover {
+    box-shadow: 0px 05px 10px rgba(0,0,0,.9);
+    min-width: 190px;
+}
+
+.botoncentro:hover {
+    box-shadow: 0px 05px 10px rgba(0,0,0,.9); 
+    min-width: 190px;
+    background-color: darkorange;
+}
+
+.secondbutton a {
+    color: white;
+    font-weight: lighter
+}
+
+.botoncentro a {
+    color: black;
+}
+
+.botoncentro a:hover{
+    color: white
+}
+ 
+/*sección keyselling*/
+
+.keyselling {
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 4em;
+    min-height: 355px
+}
+
+.caja-textos {
+    width: 30%;
+    margin-right: 2em;
+    display: inline-block;
+    float: left
+}
+
+.caja-textos3 {
+    width: 28%;
+    display: inline-block
+}
+
+.caja-textos, .caja-textos3 p {
+    font-size: 1.2em;
+    line-height: 1.5
+}
+
+.caja-textos ul li {
+    list-style-position: outside;
+}
+
+.iconos {
+    width: 25px;
+    margin-right: 10px
+}
+
+.titulo-key h3 {
+    font-size: 24px
+}
+
+.espacio-blanco {
+    width: 100%;
+    height: 50px
+    
+}
+/*sección pricing*/
+
+.pegatina {
+    background-color: darkorange;
+    color: white;
+    width: 100px;
+    text-align: left;
+    padding:1em;
+    font-weight: lighter;
+    box-shadow: 0px 8px 7px rgba(0,0,0,.3);
+    position:absolute;
+    margin-left: -50px;
+    margin-top: -20px
+}
+
+.pricing {
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 40px;
+    min-height: 600px
+}
+
+.intro-pricing p {
+    color: grey;
+    font-size: 1.3em;
+    font-weight: lighter
+}
+
+.intro-pricing h3 {
+    font-size: 2em;
+    margin-top: -20px
+}
+
+.pastilla-azul {
+    width: 31%;
+    min-width: 300px;
+    background-color: #2D7DFD;
+    border-radius: 20px;
+    min-height: 400px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+.pastilla-naranja {
+    width: 31%;
+    min-width: 300px;
+    background: linear-gradient(-45deg,#FCBA01,blue);
+    border-radius: 20px;
+    min-height: 400px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.pastilla-azul3 {
+    width: 30%;
+    min-width: 300px;
+    background-color: #2D7DFD;
+    border-radius: 20px;
+    min-height: 400px;
+    float:left
+}
+
+.pastilla-azul, .pastilla-naranja, .pastilla-azul3 p {
+    text-align: center;
+}
+
+.sesion {
+    font-size: 1.7em;
+    padding-top: 1.2em;
+    padding-bottom: ;
+    text-align: center;
+    color: white
+}
+
+.per-week {
+    color: white;
+    margin-top: -20px;
+    font-size: 1.2em
+}
+
+.euros {
+    color: white;
+    font-size: 3em;
+    font-weight: 600
+}
+
+.payment {
+    color: white;
+    margin-top: -45px;e
+    font-size: 0.9 em
+}
+
+.letrapeque {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*team*/
+.team {
+    background-image: url(images/grupo.png);
+    height: 490px;
+    margin-top: em
+}
+
+.team-content {
+    padding-left: 15em;
+    padding-top: 4em;
+    padding-right: 3em;
+    height: 490px;
+    width: 50%;
+    background-color: rgba(0,0,0,.4);
+    box-shadow: 7px 5px 10px rgba(0,0,0,.5);
+    text-align: right
+}
+
+.team-content p {
+    color: white;
+    font-size: 1.3em;
+}
+
+.team-content h3 {
+    color: white;
+    font-size: 2em;
+    margin-top: -.6em
+}
+
+.team-content .puesto {
+    font-size: .8em;
+    margin-top: -1.3em
+}
+
+/*footer*/
+.pie {
+    background-color:black;
+    padding: 50px;
+    text-align: center;
+    min-height: 150px
+}
+
+.pie ul {
+    text-align: center
+}
+
+.pie ul li {
+    list-style-type: none;
+    width: 14%;
+    display: inline-block
+}
+
+.pie ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.pie ul li img {
+    height: 20px;
+    padding-right: 1.2em;
+    margin-top: 20px
+}
+/*queries*/
+/*para ipad*/
+
+@media (max-width: 1436px) {
+      .pricing {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5em;
+        padding-left: 10em;
+        padding-right: 10em
+    }
+ 
+}
+
+@media (max-width: 1384px) {
+    .branding {
+        margin-left: 10em;
+        margin-right: 10em;
+        padding-bottom: 10em;
+        padding-top: 10em;
+    }
+    /*keyselling*/
+    .keyselling {
+        margin-left: 10em;
+        margin-right: 10em;
+        padding-bottom: 10em;
+        height: 650px
+    }
+    .caja-textos, .caja-textos3 {
+        width: 100%;
+        margin-right: 0
+    }
+    /*pricing*/
+    .pricing {
+        padding-left: 2em;
+        padding-right: 1em
+    }
+ 
+}
+
+@media (max-width: 1006px) {
+     
+    .pricing {
+        min-height: 1300px;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    
+    .intro-pricing p {
+        font-size: 1em
+    }
+    
+    .pastilla-azul {
+        width: 100%;
+        min-width: 300px;
+        background-color: #2D7DFD;
+        border-radius: 20px;
+        min-height: 380px;
+        float:left;
+        margin-bottom: 20px
+    }
+
+    .pastilla-naranja {
+        width: 100%;
+        min-width: 300px;
+        background-color: #FCBA01;
+        border-radius: 20px;
+        min-height: 380px;
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 20px
+    }
+
+    .pastilla-azul3 {
+        width: 100%;
+        min-width: 300px;
+        background-color: #2D7DFD;
+        border-radius: 20px;
+        min-height: 380px;
+        float:left
+    }
+    
+    .letrapeque {
+    margin-bottom: 20px
+    }
+    } 
+
+@media (max-width: 850px) {
+     .team-content {
+        padding-left: 12em;
+        padding-right: 3em;
+        width: 100%;
+        box-shadow: none;
+        text-align: left
+    }
+    } 
+
+/*MENU para ipad*/
+@media (min-width: 781px) {
+    .hamburger {
+        display: none
+    }
+    } 
+
+@media (max-width: 780px) {
+   
+    .hamburger {
+        padding: 10px;
+        border-radius: 10px;
+        display: block
+    }
+    
+    .menudesktop { 
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s max-height 0s;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 170px;
+        text-align: left;
+        display: inline-block
+    }
+    
+    .menudesktop-des {
+        max-height: 190px;
+    }
+
+    .menudesktop-des ul {
+        padding-top: 22px
+    }
+
+    .menudesktop-des ul li {
+        list-style-type: none;
+        width: 25%;
+        display: block;
+        padding-bottom: 15px;
+    }
+    
+    .menudesktop-des ul li a {
+        color: black
+    }
+    
+    .menudesktop-des ul li a:hover {
+        color: white
+    }
+}
+
+@media (max-width: 768px) {
+     /*keyselling*/
+    .keyselling {
+        height: 50em
+    }
+}
+/*para movil*/
+@media (max-width: 621px) {
+    /*boton top*/
+    #myBtn {
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    }
+    
+    /*header*/
+    .branding {
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-bottom: 5em;
+        padding-top: 4em;
+    }
+    
+    .logo h1 {
+        font-size: 40px
+    }
+    
+    .claim h3 {
+        font-weight: lighter;
+        font-size: 15px
+    }
+    
+    .botones {
+        text-align: center;
+    }
+    
+    .mainbutton {
+        margin-right: 0;
+    }
+    
+    /*keyselling*/
+    .keyselling {
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-bottom: 2em;
+        height: 45em
+    }
+    .caja-textos, .caja-textos3 {
+        width: 100%;
+        margin-right: 0
+    }
+    .caja-textos, .caja-textos3 p {
+        font-size: 1em;
+        line-height: 1.5
+    }
+    /*sección pricing*/
+    
+    .pricing {
+        min-height: 1300px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .intro-pricing p {
+        font-size: 1em
+    }
+    
+    .pastilla-azul {
+        width: 100%;
+        min-width: 300px;
+        background-color: #2D7DFD;
+        border-radius: 20px;
+        min-height: 380px;
+        float:left;
+        margin-bottom: 20px
+    }
+
+    .pastilla-naranja {
+        width: 100%;
+        min-width: 300px;
+        background-color: #FCBA01;
+        border-radius: 20px;
+        min-height: 380px;
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 20px
+    }
+
+    .pastilla-azul3 {
+        width: 100%;
+        min-width: 300px;
+        background-color: #2D7DFD;
+        border-radius: 20px;
+        min-height: 380px;
+        float:left
+    }
+    
+    /*team para movil*/
+    .team-content {
+        padding-left: 2em;
+    }
+    
+    /*footer para movil*/
+    .pie {
+        padding-left: 30px;
+        padding-top: 1em
+    }
+    
+    .pie ul {
+        padding-left: 0px;
+        text-align: left
+    }
+
+    .pie ul li {
+        display: block;
+        padding-top: 15px;
+        width: 100%
+    }
+
+    .pie ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .pie ul li img {
+        height: 20px;
+    }
+}
